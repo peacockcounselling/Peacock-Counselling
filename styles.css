@@ -77,35 +77,6 @@ hr {
   border: 1px solid #000;
 }
 
-/* Styling for images in polaroid-style containers */
-.polaroid-1, .polaroid-2, .polaroid-3, .polaroid-4, .polaroid-5, .polaroid-6, .polaroid-7, .polaroid-8, .polaroid-9 {
-  width: 30%;
-  background-color: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 20px;
-}
-
-/* Additional styling for smaller screens */
-@media (max-width: 600px) {
-  .polaroid-1, .polaroid-2, .polaroid-3, .polaroid-4, .polaroid-5, .polaroid-6, .polaroid-7, .polaroid-8, .polaroid-9 {
-    width: 80%;
-  }
-}
-
-/* Styling for text in polaroid containers */
-.polaroid-1 p, .polaroid-2 p, .polaroid-3 p, .polaroid-4 p, .polaroid-5 p, .polaroid-6 p, .polaroid-7 p, .polaroid-8 p, .polaroid-9 p {
-  text-align: center;
-  padding: 10px 20px;
-}
-
-/* Centered text in polaroid containers */
-.polaroid-1 a, .polaroid-2 a, .polaroid-3 a, .polaroid-4 a, .polaroid-5 a, .polaroid-6 a, .polaroid-7 a, .polaroid-8 a, .polaroid-9 a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 /* Centered text in container-2 */
 .container-2 {
   width: 100%;
