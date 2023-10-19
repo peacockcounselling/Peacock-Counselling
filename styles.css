@@ -1,62 +1,131 @@
-/* Reset some default styles and apply base styles */
-body, h1, h2, h3, h4, p {
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
-    padding: 0;
+/* Reset some default styles */
+body, h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Responsive image centering */
+/* General styling for the page */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Center images */
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-/* Navigation styles */
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-/* Sidebar styles */
+/* Sidebar styling for medium and large screens */
 .w3-sidebar {
-    width: 200px;
-    background: #fff;
+  width: 200px;
+  background: #fff;
 }
 
-/* Top bar for small screens */
-.w3-top {
-    display: none;
+/* Margin for the main content to account for the sidebar */
+#main {
+  margin-left: 200px;
 }
 
-/* Responsive design for small screens */
+/* Responsive design for smaller screens */
 @media only screen and (max-width: 600px) {
-    nav ul {
-        text-align: center;
-    }
-
-    nav li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .center {
-        width: 100%;
-    }
-
-    .w3-sidebar {
-        width: 100%;
-    }
-
-    .w3-top {
-        display: block;
-    }
+  #main {
+    margin-left: 0;
+  }
+  .center {
+    width: 100%;
+  }
 }
 
-/* Add more custom styles for specific elements as needed */
+/* Styling for the top bar on small screens */
+.w3-top {
+  display: none;
+}
+
+/* Styling for the navigation bar links */
+.w3-bar-item {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Styling for the page content sections */
+.w3-padding-large {
+  padding: 32px;
+}
+
+.w3-text-black {
+  color: #000;
+}
+
+/* Styling for section headers */
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Horizontal rule styling */
+hr {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+/* Styling for images in polaroid-style containers */
+.polaroid-1, .polaroid-2, .polaroid-3, .polaroid-4, .polaroid-5, .polaroid-6, .polaroid-7, .polaroid-8, .polaroid-9 {
+  width: 30%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+/* Additional styling for smaller screens */
+@media (max-width: 600px) {
+  .polaroid-1, .polaroid-2, .polaroid-3, .polaroid-4, .polaroid-5, .polaroid-6, .polaroid-7, .polaroid-8, .polaroid-9 {
+    width: 80%;
+  }
+}
+
+/* Styling for text in polaroid containers */
+.polaroid-1 p, .polaroid-2 p, .polaroid-3 p, .polaroid-4 p, .polaroid-5 p, .polaroid-6 p, .polaroid-7 p, .polaroid-8 p, .polaroid-9 p {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* Centered text in polaroid containers */
+.polaroid-1 a, .polaroid-2 a, .polaroid-3 a, .polaroid-4 a, .polaroid-5 a, .polaroid-6 a, .polaroid-7 a, .polaroid-8 a, .polaroid-9 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Centered text in container-2 */
+.container-2 {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: left;
+}
+
+/* Additional styling for smaller screens for container-2 */
+@media (max-width: 600px) {
+  .container-2 {
+    flex-direction: column;
+  }
+}
+
+/* Styling for picture-1 and text-1 in container-2 */
+.picture-1, .text-1 {
+  width: 20%;
+}
+
+/* Additional styling for smaller screens for picture-1 and text-1 in container-2 */
+@media (max-width: 600px) {
+  .picture-1, .text-1 {
+    width: 100%;
+  }
+}
