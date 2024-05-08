@@ -6,7 +6,6 @@ h1,h2 {color: #EED345; font-weight: bold}
 #main {margin-left: 200px}
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 .fa {color: #EED345}
-.fa-bars {display: block}
 hr {border-color: #EED345; border-style: solid}
 /* Style for Publications Section */
 .publications {margin-top: 20px}
