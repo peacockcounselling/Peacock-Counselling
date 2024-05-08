@@ -8,11 +8,12 @@ h1,h2 {color: #EED345; font-weight: bold}
 .fa {color: #EED345}
 hr {border-color: #EED345; border-style: solid}
 /* Style for Publications Section */
-.publications {margin-top: 20px}
-.publication {display: flex; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; overflow: hidden}
+.publications {padding: 20px}
+.publication {display: flex; margin-bottom: 20px}
 .publication img {height: 100px}
 .publication-info {padding: 10px}
 .publication-info h3 {margin-top: 0; margin-bottom: 5px}
 .publication-info p {margin: 0}
 .publication-info a {text-decoration: none; color: #007bff}
 .publication-info a:hover {text-decoration: underline}
+.publications ul {list-style: none; padding: 0}
