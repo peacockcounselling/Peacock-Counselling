@@ -12,5 +12,9 @@ hr {border-color: #EED345}
 @media (max-width:600px) {.picture-1,.text-1{width:100%}}
 .container-1{width:100%;justify-content:space-between; display:flex;align-items:center;flex-flow:row wrap}
 @media (max-width:600px){.container-1{flex-direction:column}}
-.polaroid-1,.polaroid-2,.polaroid-3,.polaroid-4,.polaroid-5,.polaroid-6,.polaroid-7,.polaroid-8,.polaroid-9{width:30%; background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);margin-bottom:20px;}
-@media (max-width:600px) {.polaroid-1,.polaroid-2,.polaroid-3,.polaroid-4,.polaroid-5,.polaroid-6,.polaroid-7,.polaroid-8,.polaroid-9{width:80%}}
+.publications {padding: 20px}
+.publication {display: flex; margin-bottom: 20px}
+.publication img {width: 100px; margin-right: 20px}
+.publication-info {flex-grow: 1}
+.publication-info h3 {margin-top: 0}
+.publications ul {list-style: none; padding: 0}
