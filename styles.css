@@ -8,7 +8,6 @@ h1,h2 {color: #EED345; font-weight: bold}
 .fa {color: #EED345}
 .fa-bars {display: block}
 #w3-mySidebar {display: none}
-.w3-top.w3-hide-large {display: none}
 hr {border-color: #EED345; border-style: solid}
 .bacp-image-container{width:100%;justify-content:space-between; display:flex;align-items:left}@media (max-width:600px){.bacp-image-container{flex-direction:column}}
 .bacp-picture{width:20%}
