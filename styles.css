@@ -4,7 +4,7 @@ h1,h2 {color: #EED345; font-weight: bold}
 .w3-sidebar {width: 200px;background: #fff; position: fixed; z-index: 1; height: 100%; overflow: auto;}
 .center {display: block; margin-left: auto; margin-right: auto; width: 50%}
 #main {margin-left: 200px}
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 1024px) {#main {margin-left: 0}}
 .fa {color: #EED345}
 hr {border-color: #EED345; border-style: solid}
 /* Style for Publications Section */
