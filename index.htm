@@ -56,27 +56,40 @@
   </a>
 </nav>
 
-<!-- Hamburger icon -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myTopnav">
+<!-- Toggleable top menu bar -->
+<div class="w3-top" id="myTopnav">
   <div class="w3-bar w3-white w3-padding w3-card">
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hover-none w3-hover-text-black" onclick="toggleMenu()">
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleMenu()">
       <i class="fa fa-bars"></i>
     </a>
+    <div class="w3-dropdown-click">
+      <button onclick="toggleDropdown()" class="w3-button w3-hide-medium w3-hide-large">Menu <i class="fa fa-caret-down"></i></button>
+      <div id="menuDropdown" class="w3-dropdown-content w3-bar-block w3-border" style="display:none">
+        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#quali" class="w3-bar-item w3-button">QUALIFICATIONS</a>
+        <a href="#publications" class="w3-bar-item w3-button">PUBLICATIONS</a>
+        <a href="#research" class="w3-bar-item w3-button">RESEARCH</a>
+        <a href="#counselling" class="w3-bar-item w3-button">COUNSELLING</a>
+        <a href="#training" class="w3-bar-item w3-button">TRAINING</a>
+        <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- Sidebar menu (hidden by default) -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-large w3-padding-large" onclick="toggleMenu()">Close &times;</a>
-  <a href="#home" class="w3-bar-item w3-button">HOME</a>
-  <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#quali" class="w3-bar-item w3-button">QUALIFICATIONS</a>
-  <a href="#publications" class="w3-bar-item w3-button">PUBLICATIONS</a>
-  <a href="#research" class="w3-bar-item w3-button">RESEARCH</a>
-  <a href="#counselling" class="w3-bar-item w3-button">COUNSELLING</a>
-  <a href="#training" class="w3-bar-item w3-button">TRAINING</a>
-  <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
-</nav>
+<script>
+  function toggleMenu() {
+    var dropdown = document.getElementById("menuDropdown");
+    dropdown.style.display === "none" ? dropdown.style.display = "block" : dropdown.style.display = "none";
+  }
+
+  function toggleDropdown() {
+    var dropdown = document.getElementById("menuDropdown");
+    dropdown.style.display === "none" ? dropdown.style.display = "block" : dropdown.style.display = "none";
+  }
+</script>
+
 
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
@@ -267,6 +280,5 @@
   </div>
 
 </div>
-<script src="script.js"></script>
 </body>
 </html>
