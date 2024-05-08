@@ -2,17 +2,17 @@ body, h1,h2,h3,h4 {font-family: "Montserrat", sans-serif}
 h1,h2 {color: #EED345; font-weight: bold}
 .w3-row-padding img {margin-bottom: 12px}
 .w3-sidebar {width: 200px;background: #fff; position: fixed; z-index: 1; height: 100%; overflow: auto;}
-.center {display: block;margin-left: auto;margin-right: auto;width: 50%}
+.center {display: block; margin-left: auto; margin-right: auto; width: 50%}
 #main {margin-left: 200px}
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.fa {color: #EED345}
 .fa-bars {display: block}
 #w3-mySidebar {display: none}
-.fa {color: #EED345}
 hr {border-color: #EED345; border-style: solid}
 .bacp-image-container{width:100%;justify-content:space-between; display:flex;align-items:left}@media (max-width:600px){.bacp-image-container{flex-direction:column}}
 .bacp-picture{width:20%}
 .bacp-text{width:77%}
-@media (max-width:600px) {.picture-1,.text-1{width:100%}}
+@media (max-width:600px) {.bacp-picture,.bacp-text{width:100%}}
 .publications {padding: 20px}
 .publication {display: flex; margin-bottom: 20px}
 .publication img {width: 100px; margin-right: 20px}
