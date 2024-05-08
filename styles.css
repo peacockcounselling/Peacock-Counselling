@@ -1,114 +1,83 @@
-/* Reset some default styles */
 body, h1, h2, h3, h4 {
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
+    font-family: "Montserrat", sans-serif;
 }
 
-/* General styling for the page */
-body {
-  background-color: #fff;
-  color: #000;
+.w3-row-padding img {
+    margin-bottom: 12px;
 }
 
-/* Center images */
-img.center {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-/* Sidebar styling for medium and large screens */
 .w3-sidebar {
-  width: 200px;
-  background: #fff;
+    width: 200px;
+    background: #fff;
 }
 
-/* Margin for the main content to account for the sidebar */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 #main {
-  margin-left: 200px;
+    margin-left: 200px;
 }
 
-/* Responsive design for smaller screens */
 @media only screen and (max-width: 600px) {
-  #main {
-    margin-left: 0;
-  }
-  .center {
-    width: 100%;
-  }
-  h1 {
-    font-size: 30px;
-  }
-  h2 {
-    font-size: 26px;
-  }
-  h3 {
-    font-size: 22px;
-  }
-  h4 {
-    font-size: 20px;
-  }
+    #main {
+        margin-left: 0;
+    }
 }
 
-/* Styling for the top bar on small screens */
-.w3-top {
-  display: none;
-}
-
-/* Styling for the navigation bar links */
-.w3-bar-item {
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  color: #000;
-}
-
-/* Styling for the page content sections */
-.w3-padding-large {
-  padding: 32px;
-}
-
-.w3-text-black {
-  color: #000;
-}
-
-/* Styling for section headers */
-h2 {
-  font-size: 24px;
-  margin-top: 20px;
-}
-
-/* Horizontal rule styling */
-hr {
-  width: 100%;
-  border: 1px solid #000;
-}
-
-/* Centered text in container-2 */
 .container-2 {
-  width: 100%;
-  justify-content: space-between;
-  display: flex;
-  align-items: left;
-}
-
-/* Additional styling for smaller screens for container-2 */
-@media (max-width: 600px) {
-  .container-2 {
-    flex-direction: column;
-  }
-}
-
-/* Styling for picture-1 and text-1 in container-2 */
-.picture-1, .text-1 {
-  width: 20%;
-}
-
-/* Additional styling for smaller screens for picture-1 and text-1 in container-2 */
-@media (max-width: 600px) {
-  .picture-1, .text-1 {
     width: 100%;
-  }
+    justify-content: space-between;
+    display: flex;
+    align-items: left;
+}
+
+@media (max-width: 600px) {
+    .container-2 {
+        flex-direction: column;
+    }
+}
+
+.picture-1 {
+    width: 20%;
+}
+
+.text-1 {
+    width: 77%;
+}
+
+@media (max-width: 600px) {
+    .picture-1, .text-1 {
+        width: 100%;
+    }
+}
+
+.container-1 {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+@media (max-width: 600px) {
+    .container-1 {
+        flex-direction: column;
+    }
+}
+
+.polaroid-1, .polaroid-2, .polaroid-3, .polaroid-4, .polaroid-5, .polaroid-6, .polaroid-7, .polaroid-8, .polaroid-9 {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .polaroid-1, .polaroid-2, .polaroid-3, .polaroid-4, .polaroid-5, .polaroid-6, .polaroid-7, .polaroid-8, .polaroid-9 {
+        width: 80%;
+    }
 }
