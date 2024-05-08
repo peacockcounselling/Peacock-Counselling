@@ -1,83 +1,15 @@
-body, h1, h2, h3, h4 {
-    font-family: "Montserrat", sans-serif;
-}
-
-.w3-row-padding img {
-    margin-bottom: 12px;
-}
-
-.w3-sidebar {
-    width: 200px;
-    background: #fff;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-#main {
-    margin-left: 200px;
-}
-
-@media only screen and (max-width: 600px) {
-    #main {
-        margin-left: 0;
-    }
-}
-
-.container-2 {
-    width: 100%;
-    justify-content: space-between;
-    display: flex;
-    align-items: left;
-}
-
-@media (max-width: 600px) {
-    .container-2 {
-        flex-direction: column;
-    }
-}
-
-.picture-1 {
-    width: 20%;
-}
-
-.text-1 {
-    width: 77%;
-}
-
-@media (max-width: 600px) {
-    .picture-1, .text-1 {
-        width: 100%;
-    }
-}
-
-.container-1 {
-    width: 100%;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
-@media (max-width: 600px) {
-    .container-1 {
-        flex-direction: column;
-    }
-}
-
-.polaroid-1, .polaroid-2, .polaroid-3, .polaroid-4, .polaroid-5, .polaroid-6, .polaroid-7, .polaroid-8, .polaroid-9 {
-    width: 30%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 20px;
-}
-
-@media (max-width: 600px) {
-    .polaroid-1, .polaroid-2, .polaroid-3, .polaroid-4, .polaroid-5, .polaroid-6, .polaroid-7, .polaroid-8, .polaroid-9 {
-        width: 80%;
-    }
-}
+body, h1,h2,h3,h4 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width: 200px;background: #fff;}
+.center {display: block;margin-left: auto;margin-right: auto;width: 50%}
+#main {margin-left: 200px}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.container-2{width:100%;justify-content:space-between; display:flex;align-items:left}
+@media (max-width:600px){.container-2{flex-direction:column}}
+.picture-1{width:20%}
+.text-1{width:77%}
+@media (max-width:600px) {.picture-1,.text-1{width:100%}}
+.container-1{width:100%;justify-content:space-between; display:flex;align-items:center;flex-flow:row wrap}
+@media (max-width:600px){.container-1{flex-direction:column}}
+.polaroid-1,.polaroid-2,.polaroid-3,.polaroid-4,.polaroid-5,.polaroid-6,.polaroid-7,.polaroid-8,.polaroid-9{width:30%; background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);margin-bottom:20px;}
+@media (max-width:600px) {.polaroid-1,.polaroid-2,.polaroid-3,.polaroid-4,.polaroid-5,.polaroid-6,.polaroid-7,.polaroid-8,.polaroid-9{width:80%}}
