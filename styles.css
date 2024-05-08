@@ -5,6 +5,7 @@ body, h1,h2,h3,h4 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 200px}
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 .fa {color: #EED345}
+hr {border-color: #EED345}
 .container-2{width:100%;justify-content:space-between; display:flex;align-items:left}@media (max-width:600px){.container-2{flex-direction:column}}
 .picture-1{width:20%}
 .text-1{width:77%}
