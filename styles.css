@@ -17,3 +17,7 @@ hr {border-color: #EED345; border-style: solid}
 .publication-info a {text-decoration: none; color: #007bff}
 .publication-info a:hover {text-decoration: underline}
 .publications ul {list-style: none; padding: 0}
+.container {display: flex; flex-direction: column; align-items: center}
+.content {display: flex; flex-direction: row; align-items: flex-start}
+.image {flex: 0 0 auto; margin-right: 20px}
+.text {flex: 1 1 auto}
