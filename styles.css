@@ -9,12 +9,10 @@ h1,h2 {color: #EED345; font-weight: bold}
 #w3-mySidebar {display: none}
 .fa {color: #EED345}
 hr {border-color: #EED345; border-style: solid}
-.container-2{width:100%;justify-content:space-between; display:flex;align-items:left}@media (max-width:600px){.container-2{flex-direction:column}}
-.picture-1{width:20%}
-.text-1{width:77%}
+.bacp-image-container{width:100%;justify-content:space-between; display:flex;align-items:left}@media (max-width:600px){.bacp-image-container{flex-direction:column}}
+.bacp-picture{width:20%}
+.bacp-text{width:77%}
 @media (max-width:600px) {.picture-1,.text-1{width:100%}}
-.container-1{width:100%;justify-content:space-between; display:flex;align-items:center;flex-flow:row wrap}
-@media (max-width:600px){.container-1{flex-direction:column}}
 .publications {padding: 20px}
 .publication {display: flex; margin-bottom: 20px}
 .publication img {width: 100px; margin-right: 20px}
