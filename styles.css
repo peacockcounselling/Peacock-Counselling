@@ -8,9 +8,12 @@ h1,h2 {color: #EED345; font-weight: bold}
 .fa {color: #EED345}
 .fa-bars {display: block}
 hr {border-color: #EED345; border-style: solid}
-.publications {padding: 20px}
-.publication {display: flex; margin-bottom: 20px}
-.publication img {width: 100px; margin-right: 20px}
-.publication-info {flex-grow: 1}
-.publication-info h3 {margin-top: 0}
-.publications ul {list-style: none; padding: 0}
+/* Style for Publications Section */
+.publications {margin-top: 20px}
+.publication {display: flex; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; overflow: hidden}
+.publication img {height: 100px}
+.publication-info {padding: 10px}
+.publication-info h3 {margin-top: 0; margin-bottom: 5px}
+.publication-info p {margin: 0}
+.publication-info a {text-decoration: none; color: #007bff}
+.publication-info a:hover {text-decoration: underline}
