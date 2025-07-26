@@ -26,4 +26,5 @@ hr {border-color: #EED345; border-style: solid}
   .content {flex-direction: row}
   .image {margin-right: 20px}
   .text {max-width: none}
+  #main {padding-top: 64px}
 }
