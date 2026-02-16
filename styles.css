@@ -8,7 +8,8 @@ h1,h2 {color: #EED345; font-weight: bold}
 	#main {margin-left: 0; padding-top: 64px}
 	#banner {margin-top: 64px}
 }
-.fa {color: #EED345}
+.fa-solid {color: #EED345}
+.fa-brands {color: #EED345}
 hr {border-color: #EED345; border-style: solid}
 /* Style for Publications Section */
 .publications {padding: 20px}
